@@ -1,0 +1,40 @@
+body{
+    background-image: url("../images/Seinfeld_logo.png");
+    background-repeat: repeat;
+    background-size: 180px 180px;
+    margin: 0px;
+
+}
+header{
+    background-image: url("../images/seinfeld-header3.jpg"); 
+    width: 1288px;
+    height: 370px;
+    margin-left: 70px;
+    border-radius: 4px;
+    border: solid 1px;
+    
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Archivo Narrow', sans-serif; 
+    text-align: center;
+    color: #e5002d;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 0;
+   
+}
+
+.container{
+    margin: 0 none;
+    width: 0%;
+}
+
+.div1{
+    background-color: #F9F4F4;
+    height: 800px;
+    width: 900px;
+    border: solid 1px;
+    border-radius: 4px;
+    margin: 20px 5px 20px 265px;
+}
