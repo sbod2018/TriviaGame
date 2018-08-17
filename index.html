@@ -2,36 +2,48 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Trivia Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:600" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">-->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Trivia Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:600" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>So You Think You Know Seinfeld</h1>
-    </header>
+  <nav class="nav-extended">
+    <div class="nav-wrapper">
+
+
+      <div class="nav-content">
+        <span class="nav-title">So You Think You Know Seinfeld</span>
+      </div>
+    </div>
+  </nav>
+
+  <a class="waves-effect waves-light btn" id="results">Submit</a>
+
+  <div id="quiz">
+    <div class="row">
+      <div class="col s12 m6 questions">
+        <div class="card  red accent-4">
+          <div class="card-content white-text">
+            <span class="card-title" id="timeCounter"></span>
+            <div id="results"></div>
+           </div>
+          </div>
+      </div>
+    </div>
+  </div>
 
 
 
-   <div class="div1">
-       <div class="timeCounter"></div>
-       <div class="questionOne"></div>
-       <div class="questionTwo"></div>
-       <div class="questionThree"></div>
-       <div class="questionFour"></div>
-       <div class="questionFive"></div>
-       <div class="questionSix"></div>
-       <div class="questionSeven"></div>
-       <div class="questionEight"></div>
-   </div>
-        
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
